@@ -1,0 +1,9 @@
+@import "tailwindcss";
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#070b16;color:#f7f8fc;font-family:Arial,Helvetica,sans-serif}
+.site-grid{background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:48px 48px}
+.glow{background:radial-gradient(circle at 72% 30%,rgba(249,115,22,.2),transparent 35%),radial-gradient(circle at 20% 80%,rgba(59,130,246,.16),transparent 35%)}
+.gradient-text{background:linear-gradient(100deg,#fff 10%,#ff9b55 60%,#f97316);-webkit-background-clip:text;background-clip:text;color:transparent}
+.panel{background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(14px)}
